@@ -3,7 +3,7 @@
 
 
 def fizzbuzz():
-    for number in range(0, 101):
+    for number in range(1, 101):
         if (number == 0):
             print("{}".format(number), end=" ")
         else:
