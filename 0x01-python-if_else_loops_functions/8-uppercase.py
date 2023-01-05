@@ -9,8 +9,5 @@ def uppercase(str):
             res=(chr(ord(char) - 32))
         else:
             res=char
-        if (ord(char) == 3):
-            print("{}".format(chr(10)))
-        else:
-            print("{}".format(res), end="")
-    #print("{}".format(chr(10)))
+        print("{}".format(res), end="")
+    print("{}".format(""))
