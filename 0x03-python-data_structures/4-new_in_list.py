@@ -1,4 +1,4 @@
-#!/ussr/bin/python3
+#!/usr/bin/python3
 """ function that replaces an element in a list at a specific position"""
 
 
