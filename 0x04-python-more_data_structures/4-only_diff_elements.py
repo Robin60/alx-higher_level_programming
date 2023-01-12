@@ -10,4 +10,3 @@ def only_diff_elements(set_1, set_2):
         if val not in set_1 and val not in st:
             st.add(val)
     return st
-
