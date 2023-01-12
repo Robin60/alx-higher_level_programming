@@ -7,7 +7,7 @@ def square_matrix_simple(matrix=[]):
 
     for row in matrix:
         for col in row:
-            val = col * col
+            val = col ** 2
             lis.append(val)
     while (lis != []):
         mat.append(lis[:3])
