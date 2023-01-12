@@ -9,5 +9,5 @@ def uniq_add(my_list=[]):
             uniq.append(x)
     sum = 0
     for val in uniq:
-        sum +=val
+        sum += val
     return sum
