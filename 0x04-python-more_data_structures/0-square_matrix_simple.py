@@ -2,14 +2,8 @@
 
 
 def square_matrix_simple(matrix=[]):
-    mat = []
-    lis = []
+    mat = matrix.copy()
 
-    for row in matrix:
-        for col in row:
-            val = col ** 2
-            lis.append(val)
-    while (lis != []):
-        mat.append(lis[:3])
-        lis = lis[3:]
+    for i in range(len(matrix)):
+        mat[i] = list(map(lambda x: x**2, matrix[i]))
     return mat
