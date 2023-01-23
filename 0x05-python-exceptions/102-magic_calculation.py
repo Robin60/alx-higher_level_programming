@@ -8,7 +8,7 @@ def magic_calculation(a, b):
                 raise exception("Exception")
             else:
                 res += a ** b / i
-        except:
+        except Exception:
             res = a + b
             break
         return (res)
