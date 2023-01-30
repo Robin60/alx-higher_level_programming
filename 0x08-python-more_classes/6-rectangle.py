@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""1-rectangle, built for Holberton Python project 0x08 task 1.
+"""
 
 
 class Rectangle:
@@ -13,7 +15,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Initialize a rectangle object"""
-        type(self).number_of_instances +=1
+        type(self).number_of_instances += 1
 
         self.height = height
         self.width = width
