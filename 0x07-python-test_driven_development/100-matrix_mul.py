@@ -3,16 +3,15 @@
 
 
 def matrix_mul(m_a, m_b):
-    """Function that performs matrix multiplication on two two-dimensional lists
-    of integers/floats. Error checking and input filtration could be done more
+    """Performs matrix multiplication on two two-dimensional lists
+    of integers/floats. Error checking and input filtration 
     compactly, but assignment requested a specific order of checks.
 
     Args:
-        m_a (list of lists of ints or floats): first 2D list to operate on
-        m_b (list of lists of ints or floats): first 2D list to operate on
-
-    Returns: product of first two matricies
-
+        m_a (list of lists of ints or floats): first 2D list
+        m_b (list of lists of ints or floats): first 2D list
+    Returns:
+           product of first two matricies
     """
 
     # list type
