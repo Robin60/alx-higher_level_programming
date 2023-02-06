@@ -2,7 +2,7 @@
 """ Python - Inheritance """
 
 
-class BaseGemetry:
+class BaseGeometry:
     """ A base Geometry class """
 
     def area(self):
