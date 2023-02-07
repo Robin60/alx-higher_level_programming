@@ -14,5 +14,5 @@ except Exception:
     contents = []
 finally:
     for arg in argvs:
-        content_list.append(arg)
+        contents.append(arg)
     save_to_json_file(contents, "add_item.json")
