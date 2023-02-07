@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 """Python inheritance"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
