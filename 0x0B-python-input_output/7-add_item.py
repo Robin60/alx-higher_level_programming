@@ -10,7 +10,7 @@ argvs = argv[1:]
 
 try:
     contents = load_from_json_file("add_item.json")
-except:
+except Exception:
     contents = []
 finally:
     for arg in argvs:
