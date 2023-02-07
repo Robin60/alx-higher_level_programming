@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-""" Python - Inheritance """
+""" 0x0A. Python - Inheritance, task 5 """
 
 
-class BaseGemetry:
-    """ A base Geometry class """
+class BaseGeometry:
+    """Intentionally empty class.
+
+    """
     pass
