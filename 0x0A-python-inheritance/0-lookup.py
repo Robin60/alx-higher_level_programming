@@ -6,7 +6,8 @@ def lookup(obj):
     """ Function returns list of available attributes
     and methods.
     Args:
-        obj: The object
-    Returns: A list of objects
+        obj (any): The object
+    Returns:
+           A list of objects
     """
     return (dir(obj))
