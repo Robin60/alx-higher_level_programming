@@ -1,6 +1,6 @@
 #!/usr/bin/node
-// returns the addition of 2 integers.function must be visible from outside.
+// defines a named function for export
 
-exports.add = funnction (a, b) {
-	return a + b;
+exports.add = function (a, b) {
+  return a + b;
 };
