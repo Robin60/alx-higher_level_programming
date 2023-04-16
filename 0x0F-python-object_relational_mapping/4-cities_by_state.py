@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 """script that lists all cities from the database hbtn_0e_4_usa"""
 
-if __name__ == "__main__":
-    import sys
-    import MySQLdb
+import sys
+import MySQLdb
 
-    if len(sys.argv) != 4:
-        sys.exit('Use: 0-select_states.py <mysql username> <mysql password>'
-                 '<database name>')
+
+if __name__ == "__main__":
     con = MySQL.connect(host='localhost', port=3306, user=sys.argv[1],
                         passwd=sys.argv[2], db=sys.argv[3], charset='utf8')
     cursor = con.cursor()
