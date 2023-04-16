@@ -8,6 +8,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+
 class City(Base):
     """Defines the City class to be mapped to cities state
     __tablename__ (str): The database table to be maped to
