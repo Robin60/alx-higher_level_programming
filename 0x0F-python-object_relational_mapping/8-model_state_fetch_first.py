@@ -18,5 +18,5 @@ if __name__ == '__main__':
     if first is None:
         print("Nothing")
     else:
-        print("{}: {}".format(state.id, state.name))
+        print("{}: {}".format(first.id, first.name))
     session.close()

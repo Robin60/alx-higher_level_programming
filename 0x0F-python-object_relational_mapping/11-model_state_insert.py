@@ -15,6 +15,6 @@ if __name__ == '__main__':
     session = Session(engine)
     new_obj = State(name='Louisiana')
     session.add(new_obj)
-    ssession.commit()
+    session.commit()
     print(new_obj.id)
     session.close()
